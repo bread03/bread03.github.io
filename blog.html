@@ -20,6 +20,44 @@
         
     </div>
     <div class="blog_container">
+        <div class="blogs" id="blog3">
+            <h2>Learning Three.JS and React</h2>
+            <p>
+                <b><small>Date: 04/04/2024</small></b><br><br>
+                I have recently been delving into React and Three.js web application development and wanted to create a website using 3D elements
+                that is inspired by: <a ref="https://www.my00stv.com/"><b>my00stv.com</b></a>
+            </p>
+            <p>
+                I wanted to create 3D bedroom set in the 2000s, where you can interact with objects in the room, and use the TV and Computer in the scene,
+                similar to the TV in my00stv.com. What I realised really quickly was I had to create this bedroom in Blender first, so I did.
+            </p>
+            <div style="width: 100%; text-align: center; height: 100%;">
+                <img style="border: 1px solid white; border-radius: 5px; margin: 5px; max-width: 60%; max-height: 60%;" src="/blog_imgs/blender_model.png"></img>
+                <img style="border: 1px solid white; border-radius: 5px; margin: 5px; max-width: 60%; max-height: 60%;" src="/blog_imgs/blender_model2.png"></img>
+            </div>
+            <p>
+                Now that I made the bedroom in blender, I need to put that in my web application, so i used React Three Fiber to do this. I first used<a style="padding: 0;"ref="https://github.com/pmndrs/gltfjsx"><b>gltfjsx</b></a>
+                to convert my .glb model into a react component with some minor adjustments. I also added multiple functions for interaction with the window and lamp in the scene, and added this components
+                to the canvas in my App.js.
+            </p>
+            <div style="width: 100%; text-align: center; height: 100%;">
+                <img style="border: 1px solid white; border-radius: 5px; margin: 5px; max-width: 60%; max-height: 60%;" src="/blog_imgs/04042024code1.png"></img>
+                <img style="border: 1px solid white; border-radius: 5px; margin: 5px; max-width: 60%; max-height: 60%;" src="/blog_imgs/04042024code2.png"></img>
+            </div>
+            <p>Here is the current state of the web app so far:</p>
+            <div style="width: 100%; text-align: center; height: 100%;">
+                <video style="border: 1px solid white; border-radius: 5px; margin: 5px;" width="270" height="180" controls ><source src="/blog_vids/webapp.webm" type="video/webm"></video>
+            </div>
+            <p>
+                I hope to continue adding to the web app and hopefully publish the website to the public one day... 
+            </p>
+            <h5>Final Thoughts:</h5>
+            <p>
+                This takes way more work than I realised, making me learn skills in 3D modelling using Blender which I have found fun to do. Next time, I add
+                more interactivity with objects in the scene, and then get on with implementing the TV.
+            </p>
+        </div>
+
         <div class="blogs" id="blog2">
             <h2>Training and deploying a DL model</h2>
             <p>
