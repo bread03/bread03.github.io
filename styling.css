@@ -17,6 +17,7 @@ body {
 .player {
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 10px;
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
@@ -24,6 +25,26 @@ body {
     opacity: 0;
     background-color: #212121;
 
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.promotion {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    min-width: fit-content;
+    opacity: 0;
+    background-color: #212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
