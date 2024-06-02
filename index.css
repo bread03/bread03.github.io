@@ -1,4 +1,5 @@
 .promotion-img {
+    z-index: 100;
     padding: 5px;
     border-radius: 15px;
     border: 1px solid white;
