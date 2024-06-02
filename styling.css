@@ -28,7 +28,7 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
 }
 
 .promotion {
@@ -48,7 +48,7 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
 }
 
 .promotion-2 {
@@ -68,7 +68,7 @@ body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }
 
 .navbar {

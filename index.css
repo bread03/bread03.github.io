@@ -10,5 +10,6 @@
 .promotion-img:hover {
     background-color: #aaaaaa;
     border-radius: 5px;
-    transform: scale(2);
+    transform: scale(1.5);
+    z-index: 100;
 }
