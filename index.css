@@ -1,0 +1,13 @@
+.promotion-img {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 25vw;
+    transition: transform .2s;
+}
+
+.promotion-img:hover {
+    background-color: #aaaaaa;
+    border-radius: 5px;
+    transform: scale(2);
+}
